@@ -21,6 +21,14 @@ The directory `/mnt/g` must exist firt.
 ## Context
 When _Google Drive for Desktop_ are installed in your Windows machine you can notice it is  unreachable from your **WSL** linux distribution.
 
+> You can see the system assigned the letter `G:` to the _Google Drive_ File System.
+
+![Google Drive letter in Wondows Desktop](../images/Google_Drive.png)
+
+>However, it is not mounted in **WSL**.
+
+![G: drive is not mounted](../images/No_G_Drive.png)
+
 ### [What is DrvFs?](https://devblogs.microsoft.com/commandline/chmod-chown-wsl-improvements/#what-is-drvfs)
 
 ***DrvFs*** is a filesystem plugin to **WSL** that was designed to support interop between **WSL** and the **Windows filesystem**. ***DrvFs*** enables WSL to mount drives with supported file systems under `/mnt`, such as `/mnt/c`, `/mnt/d`, etc.
@@ -35,3 +43,8 @@ Let's break down the command `sudo mount -t drvfs G: /mnt/g` for better understa
   - You can remember it as ***drv*** -->Drive; ***fs*** --> File System.
 - `G:`: This is the _Google Drive for Desktop_ drive letter. By default the assigned drive letter is `G:`.
 - `/mnt/g`: The [previously created](#Create_mount_point) mount point.
+
+
+> The outcome after mounting the _Google Drive for Desktop_
+
+![The `G:` drive was mounted](../images/G_mounted.png)
