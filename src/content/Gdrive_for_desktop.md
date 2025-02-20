@@ -5,7 +5,7 @@ Linux distribution version: Ubuntu 24.04.2 LTS
 Linux kernel version: 5.15.167.4-microsoft-standard-WSL2
 ---
 
-# Mounting Google Drive for Desktop File System
+# Mounting Google Drive for Desktop File System on *WSL*
 
 Some user as in this [stackoverflow entry](https://stackoverflow.com/questions/69207755/google-drive-virtual-drive-mount-in-wsl2), gave this workaround.
 
