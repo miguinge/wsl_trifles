@@ -14,4 +14,4 @@ You olny have to uncomment the line `set completion-ignore-case On`
 
 ![/etc/inputrc file line uncommented](../images/inputrc_uncommented.png)
 
-That's it, now the CLI autocompletion is case-insensitive.
+That's it, now the CLI autocompletion is _**case-insensitive**_.
