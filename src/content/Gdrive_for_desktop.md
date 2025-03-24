@@ -14,7 +14,7 @@ sudo mount -t drvfs G: /mnt/g
 ```
 
 <a name="Create_mount_point"></a>
-The directory `/mnt/g` must exist firt.
+The directory `/mnt/g` must exist first.
 
 `sudo mkdir /mnt/g`
 
